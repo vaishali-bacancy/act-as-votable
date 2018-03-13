@@ -1,0 +1,4 @@
+$('.vcount-<%= @post.id %>').html('<%= @up_votes %>');
+$('.ncount-<%= @post.id %>').html('<%= @down_votes %>');
+$('.vcount-<%= @post.id %>').addClass("up_vote");
+$('.ncount-<%= @post.id %>').removeClass("down_vote")
